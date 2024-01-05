@@ -17,7 +17,7 @@
                 <li><a href="#about-me-container">about</a></li>
                 <li><a href="#projects-container">projects</a></li>
                 <li><a href="#skills-container">skills</a></li>
-                <li><a href=" resume.html" target="_blank">resume</a></li>
+                <!-- <li><a href=" resume.html" target="_blank">resume</a></li> -->
                 <li><a href="#contact-container">contact</a></li>
             </ul>
         </nav>
@@ -47,21 +47,23 @@
                         I developed this for a course final project. It is a simple note taking app that allows plain text or, my prefence, <a href="https://www.markdownguide.org/" target="_blank">markdown</a>. 
                         They are stored as notes and notebooks. You create a note and then can add it to a notebook and then select a notebook and view your notes in rendered markdown and export it as a pdf.
                         I learned about <a href="https://www.mongodb.com/" target="_blank">mongodb</a> clusters and relational databases. 
-                        I learned a lot about HTTP requests and how to tranlate them from front to back to database. The app 
-                        had to have CRUD or SCRUD functionality, which I implemented in simple ways with create, delete, and update buttons. 
-                        Then I added "search" through a filtering system with the notebooks. This was also my first time using Node. I had 
-                        heard of it before, and npm, but never used it. I learned how to use npm to install packages and how to use Node to 
-                        run a sever. You can find the code for this project on my github.
+                        I learned a lot about HTTP requests and how to translate them from front to back to database. The app 
+                        had to have <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete" target="_blank">CRUD</a>/SCRUD functionality, which I implemented 
+                        in simple ways with create, delete, and update buttons. 
+                        Then I added "search" through a filtering system with the notebooks. This was also my first time using <a href="https://nodejs.org/en" target="_blank">Node.js</a>. I had 
+                        heard of it before, and <a href="https://www.npmjs.com/" target="_blank">npm</a>, but never used it. I learned how to use npm to install packages 
+                        and how to use Node to run a sever. You can find the code for this project on my github.
                     </div>
                     <div class="project">NSM. A automation for starting and safely exposing a minecraft game server for my friends and myself. 
-                        This project was a lot of fun to work on. It used linux daemons, bash scripts, and some python. Basically, how it worked 
-                        was I would turn on my server and that had a daemon running on it to start two scripts. One script was the python 
-                        script that start the <a href="https://discordpy.readthedocs.io/en/stable/" target="_blank">discord bot</a> and the other was a bash script that started the minecraft server. The discord bot then 
+                        This project was a lot of fun to work on. It used linux daemons, bash scripts, and some python. It was automated 
+                         so I would turn on my server and that had a daemon running on it to start two scripts. One script was the python 
+                        script that start the <a href="https://discordpy.readthedocs.io/en/stable/" target="_blank">discord bot</a> and the other 
+                        was a bash script that started the minecraft server. The discord bot would use
                         a tunneling service called <a href="https://ngrok.com/" target="_blank">ngrok</a> to create a tcp tunnel to the minecraft server. The bot would send a message into a dedicated 
-                        channel with the ngrok url. Then, the user would copy the url and paste it into their minecraft client. This would allow them 
+                        channel on our discord server with the ngrok url. Then, the user would copy the url and paste it into their minecraft client. This would allow them 
                         to connect to the server. The bot also had a command to stop the server and the bot. This was a fun project because I got to 
-                        learn about daemons and how to use them. I also learned about ngrok and how to use it. I also learned about how to use discord 
-                        bots and how to use the discord api. You can find the code for this project on my github. Sadly this project no longer works 
+                        learn about daemons and how to use them. I also learned a bit about network tunneling, specifically ngrok and how to use it. I also learned about how to use discord 
+                        bots and an <a href="https://en.wikipedia.org/wiki/API" target="_blank" >API</a>. You can find the code for this project on my github. Sadly this project no longer works 
                         because ngrok changed their free tier to not allow tcp tunnels.
                     </div>
                     <div class="project">Home Lab. <a href="https://en.wikipedia.org/wiki/Self-hosting_(web_services)" target="_blank">Self hosting</a> and 
@@ -73,7 +75,7 @@
                         and more through a hypervisor, like <a href="https://www.proxmox.com/en/" target="_blank">Proxmox</a> or <a href="https://xcp-ng.org/" target="_blank">XCP-ng</a>, or just <a href="https://www.docker.com/" target="_blank">docker containers</a> 
                         with <a href="https://www.portainer.io/" target="_blank">portainer</a> or something. Back to my network, my dad and I retrofitted our house with cat6 cabling and unifi APs. 
                         I have a small 1u Supermicro server running PFsense as my firewall/router. Then to connect everything I have 2 small 8 port unifi switches and a 24 port unifi switch. 
-                        I configured the network to use a link aggregation uplink the router to the main switch, ironically called "LAGGy lan". I just did the basic configuration for the wireless network. 
+                        I configured the network to use a link aggregation uplink from the router to the main switch. I just did some basic configurations for the wireless network. 
                         In the future I want to configure vlans and other things. I do all this because I am interested in system administration and networking. 
                         So building and maintaining my own network is a great way to learn. I also do it because I like to have control over my network and my data.
                     </div>
@@ -99,7 +101,7 @@
             <div id="contact-container">
                 <h3>contact me</h3>
                 <div id="contact-content">
-                    <p>If you want to get in touch, please drop me an email at <span class="blockspam" aria-hidden="true">PLEASE GO AWAY!</span> csandrew@<!-- sdfjsdhfkjypcs -->umich.edu or find me on linkedin or github. 
+                    <p>If you want to get in touch, please send me an email at <span class="blockspam" aria-hidden="true">PLEASE GO AWAY!<!-- Trying to prevent bots here--></span> csandrew@<!-- sdfjsdhfkjypcs -->umich.edu or find me on linkedin or github. 
                         <a href="https://www.linkedin.com/in/opsecisimportant/" target="_blank"><img src="./images/LI-In-Bug.png" alt="Linkedin logo"></a>
                         <a href="https://github.com/csandrew-dev" target="_blank"><img src="./images/github-mark.png" alt="Github logo"></a>
                     </p>   
