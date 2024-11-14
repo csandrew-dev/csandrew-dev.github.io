@@ -27,7 +27,7 @@ cover:
     relative: false
     hidden: false
 editPost:
-    URL: ""
+    URL: "https://github.com/csandrew-dev/csandrew-dev.github.io/blob/main/content/posts/hello-world.md"
     Text: "Suggest Changes"
     appendFilePath: true
 ---
