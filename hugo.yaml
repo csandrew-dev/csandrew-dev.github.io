@@ -1,0 +1,74 @@
+baseURL: "https://csandrew-dev.github.io"
+languageCode: en-us
+title: "csandrew's blog"
+
+theme: ["PaperMod"]
+
+defaultTheme: auto # to switch between dark or light according to browser theme
+enableRobotsTXT: true
+enableEmoji: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: posts
+          url: "/posts"
+          weight: 1
+        - name: archives
+          url: archives/
+          weight: 5
+        - name: tags
+          url: tags/
+          weight: 10
+
+
+Params:
+  env: "production"
+
+  ShowShareButtons: true
+  shareButtons: ["x", "linkedin", "reddit"]
+  ShowToc: true
+  TocOpen: false
+  ShowRssButtonInSectionTermList: true
+  ShowFullTextinRSS: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowReadingTime: false
+  ShowBreadCrumbs: true
+
+  assets:
+    favicon: "/favicon.ico"
+
+
+  editPost:
+    URL: "https://github.com/csandrew-dev.github.io/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # Profile Mode
+  profileMode:
+    enabled: true
+    title: "computer science (cs), cybersecurity (cs), andrew (me)" 
+    subtitle: "welcome, I'm mainly gonna ramble about tech here :man_technologist:"
+    imageUrl: "/unnamed.png" # optional
+    imageTitle: "csandrew's head" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: posts
+        url: "/posts"
+      - name: src
+        url: "https://github.com/csandrew-dev/csandrew-dev.github.io"
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/csandrew-dev"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/opsecisimportant/"
