@@ -1,7 +1,7 @@
 ---
 title: "Using a VirtualBox VDI Image in a Proxmox VM"
 date: 2025-01-24T20:59:56-05:00
-draft: true
+draft: false
 tags: ["proxmox", "virtual machine", "qemu", "vdi", "tailscale", "remote"]
 author: "me"
 showToc: true
