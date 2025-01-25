@@ -4,7 +4,7 @@ date: 2024-11-13T21:17:18-05:00
 draft: false
 tags: ["hugo", "beginner"]
 author: "me"
-showToc: true
+showToc: false
 TocOpen: false
 hidemeta: false
 comments: false

@@ -3,10 +3,14 @@ languageCode: en-us
 title: "csandrew's blog"
 
 theme: ["PaperMod"]
+theme: PaperMod
 
 defaultTheme: auto # to switch between dark or light according to browser theme
 enableRobotsTXT: true
 enableEmoji: true
+buildDrafts: true
+buildFuture: false
+buildExpired: false
 
 languages:
   en:
@@ -29,9 +33,9 @@ languages:
           weight: 10
 
 
-Params:
+params:
   env: "production"
-
+  title: "csandrew's blog"
   ShowShareButtons: true
   shareButtons: ["x", "linkedin", "reddit"]
   ShowToc: true
@@ -42,10 +46,23 @@ Params:
   ShowPostNavLinks: true
   ShowReadingTime: false
   ShowBreadCrumbs: true
+  ShowWordCount: false
+  images: ["unnamed.png"]
+  DateFormat: "January 2, 2006"
 
   assets:
-    favicon: "/favicon.ico"
+    disableHLJS: true
+    favicon: "assets/favicon.ico"
+    favicon16x16: "assets/favicon-16x16.png" 
+    favicon32x32: "assets/favicon-32x32.png"
+    appleTouchIcon: "assets/apple-touch-icon.png"
 
+
+  # logo and name shown in top left corner
+  label:
+    text: "csandrew's blog"
+    logo: "/unnamed.png"
+    iconHeight: 30
 
   editPost:
     URL: "https://github.com/csandrew-dev/csandrew-dev.github.io/tree/main/content"
