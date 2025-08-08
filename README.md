@@ -1,7 +1,10 @@
-# Personal Hugo Site
+## Welcome to my site's github repo
 
-### Just Some Notes For Myself
-- create new post from template: `hugo new --kind post posts/<post-name>.md`
-- start hugo serve: `hugo serve -D`
-- theme's wiki: [https://github.com/adityatelange/hugo-PaperMod/wiki](https://github.com/adityatelange/hugo-PaperMod/wiki)
-- hugo docs: [https://gohugo.io/documentation/](https://gohugo.io/documentation/)
+### Go to the actual site -> [csandrew-dev.github.io](https://csandrew-dev.github.io)
+
+
+I'm just talking about tech stuff that interests me and blogging guides and deep-dives about topics that I enjoy. Some of those topics include security, macos, mdm, linux, system administration, programming & scripting, homelabbing and more. Feel free to reach out if you have a question about any of my posts or want to talk.
+
+Find me on:
+- linkedin - [linkedin.com/in/csandrew](https://linkedin.com/in/csandrew)
+- slack - `@csandrew` on the [MacAdmins Slack](https://www.macadmins.org/)
