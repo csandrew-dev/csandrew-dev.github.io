@@ -38,7 +38,7 @@ editPost:
 Let me get a Thank You out first. I was an awardee of the 2025 Community and Conference Grant from the [MacAdmins Foundation](https://www.macadmins.org/) which is the only reason I was able to go to the Conference so THANK YOU for the opportunity.
 
 ### First Time? ~~"No, not my first time"~~ yes, my first time
-This was my first time going to this conference and really any conference. What a wonderful experience. The community was great, the talks were awesone, and there was so much to do and learn.
+This was my first time going to this conference and really any conference. What a wonderful experience. The community was great, the talks were awesome, and there was so much to do and learn.
 
 I'm not sure what I expected, but attending as a person in a tier 2 support role and not being a full "MacAdmin", I thought lots of information was going to go over my head or not be applicable to me because I'm not in a role matching the speaker, but talks were digestible and people I talked to understood I didn't know everything but wanted to eagerly learn. Also a heavy dose of imposter syndrome because I don't want to sound like a fool in front of people that I have tons of respect for.
 
