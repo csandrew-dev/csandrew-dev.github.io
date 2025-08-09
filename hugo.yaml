@@ -12,6 +12,10 @@ buildDrafts: true
 buildFuture: false
 buildExpired: false
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 languages:
   en:
     languageName: "English"
@@ -88,4 +92,4 @@ params:
     - name: "github"
       url: "https://github.com/csandrew-dev"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/opsecisimportant/"
+      url: "https://www.linkedin.com/in/csandrew/"
