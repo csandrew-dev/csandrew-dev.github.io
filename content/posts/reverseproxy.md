@@ -1,7 +1,7 @@
 ---
 title: "Setting Up a Reverse Proxy For MDM (and other services)"
 date: 2025-08-06T23:51:46-04:00
-draft: true
+draft: false
 tags: [macos, mdm, npm, docker-compose, homelab, open source, selfhosting]
 author: "me"
 showToc: true
