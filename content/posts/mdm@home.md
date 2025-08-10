@@ -183,7 +183,7 @@ unzip {nanomdm.zip}
 
 17. Run the nanoMDM server
 ```zsh
-./nanomdm-linux-amd64 -ca ../../ca.pem -api nanomdm -debug`
+./nanomdm-linux-amd64 -ca ../../ca.pem -api nanomdm -debug
 ```
 > `../../ca.pem` is the relative path to the ca certificate we got from the SCEP server.
 >
